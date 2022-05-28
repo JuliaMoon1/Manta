@@ -55,7 +55,7 @@ precompute-coins = [
 # utils
 anyhow = { version = "1.0.55", optional = true }
 indoc = { version = "1.0.3", default-features = false, optional = true}
-rand = { version = "0.8.4", default-features = false, optional = true }
+rand = { version = "0.8.5", default-features = false, optional = true }
 tempfile = { version = "3.3.0", optional = true }
 
 # substrate dependencies
@@ -87,6 +87,6 @@ pallet-assets = { git = 'https://github.com/paritytech/substrate.git', branch = 
 pallet-asset-manager = { path = "../asset-manager"}
 manta-sdk = { git = "https://github.com/manta-network/sdk.git", features = ["download"] }
 tempfile = "3.3.0"
-rand = "0.8.4"
+rand = "0.8.5"
 xcm = { git = 'https://github.com/paritytech/polkadot.git', branch = "release-v0.9.16" }
 
